@@ -45,7 +45,8 @@
   .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; box-shadow: var(--card-shadow); }
   .card h3 { margin: 0 0 6px; font-size: 1.05rem; }
   .card p { margin: 0; color: var(--muted); font-size: .95rem; }
-  .card .icon { font-size: 1.5rem; margin-bottom: 8px; }
+  .card .icon { color: var(--accent); margin-bottom: 10px; }
+  .card .icon svg { display: block; }
 
   /* Timeline */
   .timeline { position: relative; margin-left: 8px; padding-left: 28px; border-left: 2px solid var(--line); }
@@ -115,10 +116,10 @@
     <h2>What I do</h2>
     <p class="section-sub">The stack I ship with — and the delivery discipline behind it.</p>
     <div class="grid">
-      <div class="card"><div class="icon">🤖</div><h3>AI &amp; Agents</h3><p>LLM applications, structured outputs, embeddings &amp; semantic search, RAG, MCP servers, Claude Code.</p></div>
-      <div class="card"><div class="icon">⚙️</div><h3>Automation</h3><p>Blue Prism, UiPath, Automation Anywhere, Power Platform, Microsoft Copilot — bots that survive production.</p></div>
-      <div class="card"><div class="icon">🔍</div><h3>Process Mining</h3><p>Celonis — finding the work worth automating before building anything.</p></div>
-      <div class="card"><div class="icon">📦</div><h3>Delivery, end to end</h3><p>Process discovery, solution design, PDD / SDD documentation, deployment and production support.</p></div>
+      <div class="card"><div class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l1.8 5.2L19 9l-5.2 1.8L12 16l-1.8-5.2L5 9l5.2-1.8L12 2z"/><path d="M18.5 15l.9 2.6 2.6.9-2.6.9-.9 2.6-.9-2.6-2.6-.9 2.6-.9.9-2.6z"/></svg></div><h3>AI &amp; Agents</h3><p>LLM applications, structured outputs, embeddings &amp; semantic search, RAG, MCP servers, Claude Code.</p></div>
+      <div class="card"><div class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5 5l2.1 2.1M16.9 16.9L19 19M19 5l-2.1 2.1M7.1 16.9L5 19"/></svg></div><h3>Automation</h3><p>Blue Prism, UiPath, Automation Anywhere, Power Platform, Microsoft Copilot — bots that survive production.</p></div>
+      <div class="card"><div class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg></div><h3>Process Mining</h3><p>Celonis — finding the work worth automating before building anything.</p></div>
+      <div class="card"><div class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5"/><path d="M12 13v8"/></svg></div><h3>Delivery, end to end</h3><p>Process discovery, solution design, PDD / SDD documentation, deployment and production support.</p></div>
     </div>
     <div style="margin-top:14px">
       <ul class="tags">
